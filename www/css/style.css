@@ -1,7 +1,7 @@
 /**/
 
 html,body {
-  background: skyblue;
+  background: purple;
   height: 100%;
 }
 
@@ -11,14 +11,16 @@ html,body {
   padding: 10px;
   margin: 5px;
   height: 40%;
-  background: white;
+  background: yellow;
 }
 
 #btn {
-  font-size: 2em;
+    background-color: brown;
+  font-size: 4em;
 }
 
 #btn::after {
-  content: "▶";
+    background-color: teal;
+  content: "▶▶▶";
   color: red;
 }
